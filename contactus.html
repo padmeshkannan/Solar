@@ -1,0 +1,282 @@
+<html lang="en">
+<head>
+  <title>Tavigo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!--<link rel="stylesheet" href="scrolling/css/scrolling-nav.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css'>
+  <script src="slider/jssor.slider-21.1.6.min.js" type="text/javascript"></script>
+<!-- custom style -->
+ <link rel='stylesheet prefetch' href='style.css'>
+<script src="custom.js" type="text/javascript"></script>
+
+  <body>
+    <!-- afffix -->
+    <div class="container-fluid con" style="background-color:#9c5629 ;color:#fff;">
+  <div class='row' style="padding:5px;">
+
+     <div class="col-md-8">
+
+     </div>
+     <div class="col-md-2 col-xs-6">
+       <i class="fa fa-phone"> Contact us:83442-51840</i>
+
+     </div>
+     <div class="col-md-2 col-xs-6">
+      <i class="fa fa-envelope"> gopi5070@gmail.com</i>
+     </div>
+  </div>
+
+  </div>
+
+    <!-- afffix -->
+    <!-- Navigation -->
+    <!--************* hearder ******************-->
+    <nav class="navbar navbar-default " role="navigation" data-spy="affix" data-offset-top="197" style="z-index:1000">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html" style="padding-top:20px;"><!--<img src="img/LeNissi-Logo.jpg" id="logo" style="width:300px;height:60px;">-->TaviGo</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse  navbar-right navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  <li class="hidden">
+                      <a class="page-scroll" href="#page-top"></a>
+                  </li>
+                  <li >
+                      <a class="page-scroll" href="index.html">Home</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="about.html">About us</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="services.html">Services</a>
+                  </li>
+
+                  <li  class="active">
+                      <a class="page-scroll" href="contactus.html">Contact</a>
+                  </li>
+
+
+
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+<!--************* hearder ******************-->
+
+<!-- **************** Contact *********************-->
+
+<div class="container" style="margin-top:20px;">
+<h1 style="padding-bottom:10px;">Contact us</h1>
+  <!--******************* Form***************-->
+
+  <div class="row" style="width:100%;padding-bottom:80px;">
+
+    <div class="col-md-4" style="margin-top:20px;padding:20px;">
+
+              <form>
+              <legend><span class="fa fa-home"></span> Address</legend>
+              <address>
+                  <strong>Head office:</strong><br>
+                  New no 7, old no 19,
+                  puliyur main road,
+                  trustpuram,
+                  kodambakkam,
+                  Chennai 24<br>
+                  <abbr title="Phone">
+                      <i class="fa fa-phone"></i></abbr>
+                    45454785,
+                    54513214
+              </address>
+
+              <address>
+                  <strong>Branch office:</strong><br>
+                  240/4 Big Street<br>
+                  kaniyambadi<br>
+                  vellore -631561<br>
+
+                  <abbr title="Phone">
+                      <i class="fa fa-phone"></i></abbr>
+                      8344251840, 9444126467
+              </address>
+              <address>
+                  <strong><i class="fa fa-envelope"></i> Email</strong><br>
+                  <a href="mailto:#">gopi5070@gmail.com</a>
+              </address>
+              </form>
+
+    </div>
+    <h1 id="msg1"></h1>
+    <div class="col-md-8" style="margin-top:-20px;">
+    <h1 id="msg" style="text-align:center;">Drop a message !</h1>
+    <div class="col-md-10 col-md-offset-1">
+    <form id="myForm" method="post" onsubmit="return sendmail()">
+      <div class="row">
+      <div class="col-md-6" style="padding-right:5px">
+        <div class="form-group">
+        <input type="text" class="form-control" name="cname" id="cname" placeholder="Name">
+        </div>
+      </div>
+
+      <div class="col-md-6" style="padding-left:5px">
+        <div class="form-group">
+        <input type="text" class="form-control" name="cemail" id="cemail"  placeholder="Email">
+        </div>
+      </div>
+    </div>
+
+      <div class="row">
+      <div class="col-md-6" style="padding-right:5px">
+        <div class="form-group">
+        <input type="text" class="form-control" name="cphone" id="cphone"  placeholder="Phone">
+        </div>
+      </div>
+      <div class="col-md-6" style="padding-left:5px">
+        <div class="form-group">
+        <input type="text" class="form-control"  name="csubject" id="csubject"   placeholder="Subject">
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+    <textarea class="form-control" rows="5" name="cmessage" id="cmessage"   placeholder="Message.." ></textarea>
+  </div>
+    <center><button type="submit" class="btn btn-green btn-group-justified">Submit</button></center>
+    </form>
+  </div>
+  </div>
+</div>
+  <!--******************* Form***************-->
+</div>
+<!-- ****************/ about *********************-->
+
+
+
+
+    <!-- map ->
+    <div class="container-fluid" style="padding:0px;margin-top:0px;">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248756.08153923086!2d80.06892521259036!3d13.047522785937762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C+Tamil+Nadu!5e0!3m2!1sen!2sin!4v1480580130853" width="100%" height="350"  style="border:0" allowfullscreen></iframe>
+
+
+    </div>
+    <!- map -->
+    <!-- *******************footer ****************-->
+    <footer style="width:100%;padding:1px;margin:0px;">
+      <h6 style="text-align:center;"><i class="fa fa-copyright" aria-hidden="true"></i>  Tavigo | Designed and Developed by <a href="">Padmesh Kannan</a></h6>
+    </footer>
+    <!-- *******************footer ****************-->
+
+
+</body>
+
+
+
+<!-- Scrolling Nav JavaScript ->
+<script src="scrolling/js/jquery.easing.min.js"></script>
+<script src="scrolling/js/scrolling-nav.js"></script>
+-->
+<script>
+function sendmail()
+{
+  var a=$('#cname').val();
+  var b=$('#cemail').val();
+  var c=$('#cphone').val();
+  var d=$('#csubject').val();
+  var e=$('#cmessage').val();
+  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  if(a=="")
+  {
+     $('#cname').focus().select();
+    $("#msg").notify('User name is required', { position:'top center' });
+  }
+  else if(b=="")
+  {
+     $('#cemail').focus().select();
+  $("#msg").notify('Email Id is required', { position:'top center' });
+  }
+  else if(!re.test(b))
+  {
+  $('#cemail').focus().select();
+  $("#msg").notify("Please type valid email id", { position:'top center' });
+  }
+  else if(c=="")
+  {
+     $('#cphone').focus().select();
+  $("#msg").notify('Mobile Number is required', { position:'top center' });
+  }
+  else if(isNaN(c))
+  {
+      $('#cphone').focus().select();
+     $("#msg").notify("Please enter valid mobile number", { position:'top center' });
+  }
+  else if(c.length!=10)
+  {
+      $('#cphone').focus().select();
+     $("#msg").notify("Please enter 10 digit  mobile number", { position:'top center' });
+  }
+  else if(d=="")
+  {
+     $('#csubject').focus().select();
+  $("#msg").notify('Subject is required', { position:'top center' });
+  }
+
+  else if(e=="")
+  {
+     $('#cmessage').focus().select();
+  $("#msg").notify('Message is required', { position:'top center' });
+  }
+  else {
+    $.ajax({
+          type: 'post',
+          url: 'process/mailto.php',
+          data:
+          {
+         name:a,
+         email:b,
+         mobile:c,
+         subject:d,
+          message:e
+          },
+          success: function (response)
+          {
+
+            if(response=="success")
+            {
+              $.notify('Message sended successfully','success');
+              document.getElementById("myForm").reset();
+            }
+          else
+          {
+          $("#msg").notify(response, { position:'top center' });
+          }
+
+          }
+        });
+
+  }
+  return false;
+}
+</script>
+
+<!--starts Notify js for alert notification-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
+  <!--Ends Notify js for alert notification-->
+</html>

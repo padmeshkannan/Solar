@@ -1,0 +1,378 @@
+<html lang="en">
+<head>
+  <title>Tavigo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!--<link rel="stylesheet" href="scrolling/css/scrolling-nav.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css'>
+  <script src="slider/jssor.slider-21.1.6.min.js" type="text/javascript"></script>
+
+
+
+<!-- custom style -->
+ <link rel='stylesheet prefetch' href='style.css'>
+<script src="custom.js" type="text/javascript"></script>
+  <script type="text/javascript">
+      jssor_1_slider_init = function() {
+
+          var jssor_1_SlideoTransitions = [
+            [{b:-1,d:1,o:-1},{b:0,d:1000,o:1}],
+            [{b:1900,d:2000,x:-379,e:{x:7}}],
+            [{b:1900,d:2000,x:-379,e:{x:7}}],
+            [{b:-1,d:1,o:-1,r:288,sX:9,sY:9},{b:1000,d:900,x:-1400,y:-660,o:1,r:-288,sX:-9,sY:-9,e:{r:6}},{b:1900,d:1600,x:-200,o:-1,e:{x:16}}]
+          ];
+
+          var jssor_1_options = {
+            $AutoPlay: true,
+            $SlideDuration: 800,
+            $SlideEasing: $Jease$.$OutQuint,
+            $CaptionSliderOptions: {
+              $Class: $JssorCaptionSlideo$,
+              $Transitions: jssor_1_SlideoTransitions
+            },
+            $ArrowNavigatorOptions: {
+              $Class: $JssorArrowNavigator$
+            },
+            $BulletNavigatorOptions: {
+              $Class: $JssorBulletNavigator$
+            }
+          };
+
+          var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+          /*responsive code begin*/
+          /*you can remove responsive code if you don't want the slider scales while window resizing*/
+          function ScaleSlider() {
+              var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+              if (refSize) {
+                  refSize = Math.min(refSize, 1920);
+                  jssor_1_slider.$ScaleWidth(refSize);
+              }
+              else {
+                  window.setTimeout(ScaleSlider, 30);
+              }
+          }
+          ScaleSlider();
+          $Jssor$.$AddEvent(window, "load", ScaleSlider);
+          $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+          $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+          /*responsive code end*/
+      };
+  </script>
+
+  <body>
+    <!-- afffix -->
+    <div class="container-fluid con" style="background-color:#9c5629 ;color:#fff;">
+  <div class='row' style="padding:5px;">
+
+     <div class="col-md-8">
+
+     </div>
+     <div class="col-md-2 col-xs-6">
+       <i class="fa fa-phone"> Contact us:83442-51840</i>
+
+     </div>
+     <div class="col-md-2 col-xs-6">
+      <i class="fa fa-envelope"> gopi5070@gmail.com</i>
+     </div>
+  </div>
+
+  </div>
+
+    <!-- afffix -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default " role="navigation" data-spy="affix" data-offset-top="197" style="z-index:1000" >
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html" style="padding-top:20px;"><!--<img src="img/LeNissi-Logo.jpg" id="logo" style="width:300px;height:60px;">-->TaviGo</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse  navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li class="active">
+                        <a class="page-scroll" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="about.html">About us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="services.html">Services</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="contactus.html">Contact</a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container-fluid" style="padding-left:0px;margin-top:-20px;">
+      <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow:hidden; vissiblity :hidden;">
+          <!-- Loading Screen -->
+          <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+              <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+              <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+          </div>
+          <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow:hidden;">
+              <div data-p="225.00">
+                  <img data-u="image" src="images/solar/img1.jpg" />
+
+               <div style="position: absolute; top: 10px; left: 100px; width: 600px; height: 120px; font-size: 40px; color: #ffffff; line-height: 60px;  font-family: 'Roboto', sans-serif;">Solar Panels That Power Savings</div>
+                <div style="position: absolute; top: 100px; left: 100px; width: 500px; height: 120px; font-size: 30px; color: #ffffff; line-height: 60px;  font-family: 'Roboto', sans-serif;"> <a href="services.html" class="btn btn-green btn-lg" style="border-radius:0px;">View Services</a></div>
+                <div style="position: absolute; top: 100px; left: 300px; width: 500px; height: 120px; font-size: 30px; color: #ffffff; line-height: 60px;  font-family: 'Roboto', sans-serif;"> <a href="contactus.html" class="btn btn-transparent btn-lg " style="border-radius:0px;"> Contact</a></div>
+                <!--<div style="position: absolute; top: 300px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;">Build your slider with anything, includes image, content, text, html, photo, picture</div>-->
+
+              </div>
+              <div data-p="225.00" style="display: none;">
+                  <img data-u="image" src="images/solar/img4.jpg" />
+                  <div style="position: absolute; top: 10px; left: 100px; width: 600px; height: 120px; font-size: 40px; color: #ffffff; line-height: 60px;  font-family: 'Roboto', sans-serif;">Life in Education</div>
+                   <div style="position: absolute; top: 100px; left: 100px; width: 500px; height: 120px; font-size: 30px; color: #ffffff; line-height: 60px;  font-family: 'Roboto', sans-serif;"> <a href="services.html" class="btn btn-green btn-lg" style="border-radius:0px;">View Services</a></div>
+                   <div style="position: absolute; top: 100px; left: 300px; width: 500px; height: 120px; font-size: 30px; color: #ffffff; line-height: 60px;  font-family: 'Roboto', sans-serif;"> <a href="contactus.html" class="btn btn-transparent2 btn-lg " style="border-radius:0px;"> Contact</a></div>
+
+              </div>
+              <div data-p="225.00" data-po="80% 55%" style="display: none;">
+                  <img data-u="image" src="images/solar/img3.jpg" />
+                  <div style="position: absolute; top: 50px; left: 200px; width: 600px; height: 120px; font-size: 40px; color: #ffffff; line-height: 60px;  font-family: 'Roboto', sans-serif;">Future is renewable energy</div>
+                   <div style="position: absolute; top: 120px; left: 300px; width: 500px; height: 120px; font-size: 30px; color: #ffffff; line-height: 60px;  font-family: 'Roboto', sans-serif;"> <a href="services.html" class="btn btn-green btn-lg" style="border-radius:0px;">View Services</a></div>
+                   <div style="position: absolute; top: 120px; left: 500px; width: 500px; height: 120px; font-size: 30px; color: #ffffff; line-height: 60px;  font-family: 'Roboto', sans-serif;"> <a href="contactus.html" class="btn btn-transparent2 btn-lg " style="border-radius:0px;"> Contact</a></div>
+
+              </div>
+              <div data-p="225.00" data-po="80% 55%" style="display: none;">
+                  <img data-u="image" src="images/solar/img2.jpg" />
+                  <div style="position: absolute; top: 10px; left: 100px; width: 600px; height: 120px; font-size: 40px; color: #ffffff; line-height: 60px;  font-family: 'Roboto', sans-serif;">A Roof with invisible Power</div>
+                   <div style="position: absolute; top: 100px; left: 300px; width: 500px; height: 120px; font-size: 30px; color: #ffffff; line-height: 60px;  font-family: 'Roboto', sans-serif;"> <a href="services.html" class="btn btn-green btn-lg" style="border-radius:0px;">View Services</a></div>
+                   <div style="position: absolute; top: 100px; left: 500px; width: 500px; height: 120px; font-size: 30px; color: #ffffff; line-height: 60px;  font-family: 'Roboto', sans-serif;"> <a href="contactus.html" class="btn btn-transparent3 btn-lg " style="border-radius:0px;"> Contact</a></div>
+
+              </div>
+              <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
+          </div>
+          <!-- Bullet Navigator -->
+          <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+              <!-- bullet navigator item prototype -->
+              <div data-u="prototype" style="width:16px;height:16px;"></div>
+          </div>
+          <!-- Arrow Navigator -->
+          <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+          <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+      </div>
+      <!-- Slider -->
+      <!-- slider bottom cards -->
+      <div class="container-fluid" style="padding:0px;">
+       <div class="row" >
+          <div class="col-md-4 " style="background-color:#9a4f1e;height:300px">
+            <div class="row hover1" style="padding:35px;margin-top:20px;">
+              <div class="col-md-2">
+                <i class="fa fa-user-circle-o fa-3x" style="margin-top:20px;color:#ba835f"></i>
+              </div>
+              <div class="col-md-10">
+                  <h5><b style="color:white">Enginnering</b></h5>
+                  <p   style='color:white;' > Tavigo Engineering will be focussed on multi dimensional innovation and growth to support both the customer and enhance enterprise capabilities. The beginning of the journey is focussed on the areas of expertise of its strong engineering employee community experience working with multi national firms across the globe.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="background-color:#9c5629;height:300px">
+            <div class="row hover2" style="padding:35px;margin-top:20px;">
+              <div class="col-md-2">
+                <i class="fa fa-info-circle fa-3x" style="margin-top:20px;color:#ba835f"></i>
+              </div>
+              <div class="col-md-10" style="">
+                  <h5><b style="color:white">Energy</b></h5>
+                  <p  style='color:white;'  >Tavigo Energies division will focus on providing affordable turnkey solutions for residential and Commercial customers while also foraying on large scale Power grid implementation.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="background-color:#9a4f1e;height:300px">
+            <div class="row hover3" style="padding:35px;margin-top:20px;">
+              <div class="col-md-2">
+                <i class="fa fa-wrench fa-3x" style="margin-top:20px;color:#ba835f"></i>
+              </div>
+              <div class="col-md-10">
+                  <h5><b style="color:white">Education</b></h5>
+                  <p  style='color:white;'   >Tavigo Education is the process of facilitating learning, or the acquisition of knowledge, skills, values and Tavigo education includes teaching, research social services activities etc.,.</p>
+              </div>
+            </div>
+          </div>
+       </div>
+      </div>
+        <!-- slider bottom cards -->
+<!-- why chose us -->
+<div class="container" style="margin-top:50px;">
+<div class="row">
+  <div class="col-md-6">
+   <h2 style="padding:5px;text-align:left;">WHY CHOOSE US?</h2>
+   <p align="justify"  style="color:#878787;padding:10px;">Tavigo Enterprises India is a subsidiary of Tavigo LLC USA. The focus of Tavigo Enterprises will be to build a social enterprise that will start to help transform the India landscape to provide opportunities for social transformation, growth and foster innovation.</p>
+   <div class="row hove1" style="padding:5px;">
+     <div class="col-md-2">
+       <i class="fa fa-leaf fa-3x" style="margin-top:30px;color:#C2C2C2"></i>
+     </div>
+     <div class="col-md-10">
+         <h5><b>Our Mission</b></h5>
+         <p align="justify"  >Maintenance Services is a team of highly skilled trades persons and management staff that maintains utilities and buildings for the University community.
+</p>
+     </div>
+   </div>
+   <div class="row hove2">
+     <div class="col-md-2">
+       <i class="fa fa-trophy fa-3x" style="margin-top:30px;color:#C2C2C2"></i>
+     </div>
+     <div class="col-md-10">
+         <h5><b>Premium Support</b></h5>
+         <p align="justify"  >We are always there a reach away. We offer suppor 24*7 to our clients.</p>
+     </div>
+   </div>
+   <div class="row hove3">
+     <div class="col-md-2">
+       <i class="fa fa-life-ring  fa-3x" style="margin-top:30px;color:#C2C2C2" aria-hidden="true"></i>
+     </div>
+     <div class="col-md-10">
+         <h5><b>Our Services</b></h5>
+         <p align="justify" >At Tavigo Services we focus on you, the customer. We use our expertise in the industry to bring you the best quality at the most affordable prices.</p>
+     </div>
+   </div>
+  </div>
+  <div class="col-md-6">
+ <!-- ############## for image ################-->
+ <center><img src="images/solar/img5.jpg" style="width:65%;height:500px"></center>
+  </div>
+</div>
+</div>
+<!-- /why chose us -->
+
+
+
+<br>
+<br>
+
+
+    </div>
+    <!-- *******************footer ****************-->
+    <footer style="width:100%;padding:1px;margin:0px;">
+      <h6 style="text-align:center;"><i class="fa fa-copyright" aria-hidden="true"></i>  Tavigo | Designed and Developed by <a href="">Padmesh Kannan</a></h6>
+    </footer>
+    <!-- *******************footer ****************-->
+
+</body>
+<!-- Slider -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js'></script>
+
+
+<script>
+
+
+$('.responsive').slick({
+  dots: true,
+	prevArrow: $('.prev'),
+	nextArrow: $('.next'),
+  infinite: false,
+  speed: 300,
+  slidesToShow: 5,
+  slidesToScroll: 5,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+
+
+
+$(function(){
+  $(".hove1").mouseover(function(){
+    $(".hove1 i").css("color","#9c5629 ");
+  })
+  $(".hove1").mouseleave(function(){
+    $(".hove1 i").css("color","#C2C2C2");
+  })
+
+  $(".hove2").mouseover(function(){
+    $(".hove2 i").css("color","#9c5629 ");
+  })
+  $(".hove2").mouseleave(function(){
+    $(".hove2 i").css("color","#C2C2C2");
+  })
+
+  $(".hove3").mouseover(function(){
+    $(".hove3 i").css("color","#9c5629 ");
+  })
+  $(".hove3").mouseleave(function(){
+    $(".hove3 i").css("color","#C2C2C2");
+  })
+
+/************* second hover ****************/
+$(".hover1").mouseover(function(){
+  $(".hover1 i").css("color","white");
+})
+$(".hover1").mouseleave(function(){
+  $(".hover1 i").css("color","#ba835f");
+})
+
+$(".hover2").mouseover(function(){
+  $(".hover2 i").css("color","white");
+})
+$(".hover2").mouseleave(function(){
+  $(".hover2 i").css("color","#ba835f");
+})
+
+$(".hover3").mouseover(function(){
+  $(".hover3 i").css("color","white");
+})
+$(".hover3").mouseleave(function(){
+  $(".hover3 i").css("color","#ba835f");
+})
+
+
+})
+
+</script>
+
+<script type="text/javascript">jssor_1_slider_init();</script>
+
+
+</html>

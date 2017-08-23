@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+  overflow-x: hidden !important;
+}
+a,b,p{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color:#9c5629  ;
+  font-family: 'Roboto', sans-serif;
+}
+footer{
+background-color: #2b3034 !important;
+
+}
+footer h6{
+  color:#909294 ;
+  font-size: 13px;
+}
+footer h6 a{
+  color:white ;
+}
+a:hover{
+  text-decoration: none;
+  color: #9c5629;
+}
+a:focus{
+  text-decoration: none;
+  color: #9c5629;
+}
+/*************** style for sliders **************/
+.jssorb05 {
+    position: absolute;
+    height:600px;
+}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 16px;
+    height: 16px;
+    background: url('img/b05.png') no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb05 div { background-position: -7px -7px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+.jssorb05 .av { background-position: -67px -7px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+
+.highcharts-credits{
+  display: none;
+}
+.jssora22l, .jssora22r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 40px;
+    height: 58px;
+    cursor: pointer;
+    background: url('img/a22.png') center center no-repeat;
+    overflow: hidden;
+}
+.jssora22l { background-position: -10px -31px; }
+.jssora22r { background-position: -70px -31px; }
+.jssora22l:hover { background-position: -130px -31px; }
+.jssora22r:hover { background-position: -190px -31px; }
+.jssora22l.jssora22ldn { background-position: -250px -31px; }
+.jssora22r.jssora22rdn { background-position: -310px -31px; }
+.jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+.jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+
+
+.slick-dots {
+	text-align: center;
+  margin: 0 0 10px 0;
+  padding: 0;
+  li {
+    display:inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+    &.slick-active {
+      button {
+        background-color:black;
+      }
+    }
+    button {
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+      background-color:#999;
+      border:none;
+      width: 15px;
+      height: 15px;
+      border-radius:50%;
+    }
+		:hover{
+			background-color: black;
+		}
+  }
+}
+
+/* Custom Arrow */
+.prev{
+	color: #999;
+	position: absolute;
+	top: 38%;
+	left: -2em;
+	font-size: 1.5em;
+		:hover{
+			cursor: pointer;
+			color: black;
+		}
+}
+.next{
+	color: #999;
+	position: absolute;
+	top: 38%;
+	right: -2em;
+	font-size: 1.5em;
+	:hover{
+			cursor: pointer;
+			color: black;
+		}
+}
+
+@media screen and (max-width: 800px) {
+    .next {
+        display: none !important;
+    }
+}
+
+
+.slick-dots{
+  display:none !important;
+}
+
+
+/*************** style for sliders **************/
+.navbar-nav ul{
+
+}
+.navbar-nav li a {
+    display: block;
+    text-align: center;
+    -webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    transition: .5s all ease-out;
+    border-bottom: 3px solid white;
+    color: #a6a6a6 !important;
+    text-decoration: none;
+    background-color: white !important;
+    padding-top: 23px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-brand {
+  font-size: 35px;
+  color:#9c5629 !important;
+}
+.navbar-nav li a:hover {
+    border-bottom: 2px solid #9c5629  !important;
+
+    color:#9c5629  !important;
+    background-color: white !important;
+}
+
+.navbar-nav li.active a  {
+    /*border-bottom: 3px solid #9c5629 ;*/
+    color: #9c5629    !important;
+      border-bottom: 2px solid #9c5629  !important;
+      background-color: white;
+}
+
+.navbar-header{
+  height:70px !important;
+}
+/*********** nav bar ****************/
+
+
+.verticalLine {
+    border-left: 2px dotted #5D5D5D;
+}
+.unstyle li{
+  list-style: none;
+}
+/*********** circular buttons *************/
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+/*************************** circular buttons *********/
+
+.btn-green{
+  background-color: #9c5629 ;
+  color:white;
+  border-color: #9c5629 ;
+}
+.btn-green:hover{
+  background-color:transparent ;
+  color: #9c5629 ;
+  border-color: #9c5629 ;
+
+}
+
+.btn-green:focus{
+  background-color:transparent ;
+  color: #9c5629 ;
+  border-color: #9c5629 ;
+
+}
+.btn-transparent{
+  background-color: transparent;
+  color:#9c5629 ;
+  border-color: #9c5629 ;
+}
+.btn-transparent:hover{
+  background-color:transparent ;
+  color: white;
+  border-color: white;
+
+}
+
+.btn-transparent:focus{
+  background-color:transparent ;
+  color: #9c5629 ;
+  border-color: #9c5629 ;
+
+}
+
+
+.btn-transparent2{
+  background-color: transparent;
+  color:#9c5629 ;
+  border-color: #9c5629 ;
+}
+.btn-transparent2:hover{
+  background-color:transparent ;
+  color: #9c5629 ;
+  border-color: white;
+
+}
+
+.btn-transparent2:focus{
+  background-color:transparent ;
+  color: #9c5629 ;
+  border-color: #9c5629 ;
+
+}
+
+
+
+.btn-transparent3{
+  background-color: transparent;
+  color:white;
+  border-color: white;
+}
+.btn-transparent3:hover{
+  background-color:transparent ;
+  color: white;
+  border-color: #9c5629 ;
+
+}
+
+.btn-transparent3:focus{
+  background-color:transparent ;
+  color: #9c5629 ;
+  border-color: #9c5629 ;
+
+}
+
+
+
+
+
+
+/*************** bs affix *************/
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .con{
+    padding-top: 70px;
+}
+/*************** bs affix *************/
